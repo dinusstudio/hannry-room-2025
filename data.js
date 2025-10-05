@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-public",
-      "name": "PUBLIC",
+      "id": "0-public-area",
+      "name": "Public Area",
       "levels": [
         {
           "tileSize": 256,
@@ -24,23 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.019225437469632567,
-        "pitch": -0.0022635240829345094,
+        "yaw": 0,
+        "pitch": 0,
         "fov": 1.3926760049349705
       },
       "linkHotspots": [
         {
-          "yaw": 1.4173836666920803,
-          "pitch": 0.1531281678720351,
-          "rotation": 6.283185307179586,
-          "target": "1-private"
+          "yaw": 1.5529686451312443,
+          "pitch": 0.364192006614509,
+          "rotation": 0,
+          "target": "1-private-area"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-private",
-      "name": "PRIVATE",
+      "id": "1-private-area",
+      "name": "Private Area",
       "levels": [
         {
           "tileSize": 256,
@@ -62,22 +62,22 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.5016544371966756,
+        "pitch": 0.146242870182423,
+        "fov": 1.3926760049349705
       },
       "linkHotspots": [
         {
-          "yaw": -1.2544492023436806,
-          "pitch": 0.20013229397860144,
+          "yaw": -1.5016543549722527,
+          "pitch": 0.32205462713882227,
           "rotation": 0,
-          "target": "0-public"
+          "target": "0-public-area"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Hannry Room 2025",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
